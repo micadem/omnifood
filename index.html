@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
         
-        <meta name="viewport" content="width=device-width, initial scale=1.0"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" href="resources/css/style.css" type="text/css">
         <link rel="stylesheet" href="resources/css/queries.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <title>OMNIFOOD | HOME PAGE</title>
         
     </head>
@@ -22,22 +22,22 @@
                 <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
                 <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li> 
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#works">How it works</a></li> 
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#plans">Sign up</a></li>
                 </ul>
                 </div>
             </nav>
             <div class="hero-text-box">
                 <h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
-                <a class="btn btn-full" href="#">I’m hungry</a>
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <a class="btn btn-full js--scroll-to-plan" href="#plans">I’m hungry</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#features">Show me more</a>
             </div>
         
         </header>
         
-        <section class="section-features js--section-features">
+        <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="long-copy">
@@ -105,7 +105,7 @@
                 </li>
                  <li>
                     <figure class="meal-photo">
-                        <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon   ">
+                        <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon ">
                     </figure>
                 </li>
                  <li>
@@ -118,7 +118,7 @@
         
         </section>
         
-        <section class="section-steps">
+        <section class="section-steps" id="works">
             <div class="row">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
@@ -147,7 +147,7 @@
             </div>
             </div>
         </section>
-        <section class="section-cities">
+        <section class="section-cities" id="cities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
@@ -247,7 +247,7 @@
         </div>
       </section>
         
-        <section class="section-plans">
+        <section class="section-plans js--section-plans" id="plans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
@@ -405,11 +405,12 @@
             </div>
             <div class="row">
             <p>
-                Copywrights &copy; 2020 by Oyelusifood. All rights reserved
+                Copywrights &copy; 2020 by Omnifood. All rights reserved
                 </p>
             </div>
         </footer>
-    <script src="ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/htmlshiv/3.7.2/htmlshiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectvizr/1.0.3b/selectvizr.min.js"></script>

@@ -102,10 +102,11 @@
     
      body { font-size: 18px; }
     section { padding: 60px 0; }
+    .section-features { margin-bottom: 0; }
     
     h1 { font-size: 150%; }
     h2 { font-size: 120%; }
-    
+    h3 { text-align: center; }
     .long-copy {
         width: 80%;
         margin-left: 10%;    
@@ -117,6 +118,9 @@
     
     .app-screen { width: 50%; }
     
+    .icon-big {
+        text-align: center;
+    }
     .icon-small { 
         width: 17px;
         margin-right: 5px;

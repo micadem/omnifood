@@ -126,7 +126,16 @@
     section { padding: 25px 0; }
     .contact-form { width: 100%}
     
-     body { font-size: 18px; }
+      .row,
+    .hero-text-box { padding: 0 2%;}
+    
+    .btn:link, 
+    .btn:visited { padding: 10px 20px;}
+    
+    .btn-full:link, 
+    .btn-full:visited { margin-right: 8px; }
+    
+     body { font-size: 17px; }
     section { padding: 60px 0; }
     .section-features { margin-bottom: 0; }
     
@@ -168,9 +177,9 @@
     font-size: 70%;
 }
     .btn-app img {
-    height: 50px;
+    height: 45px;
     width: auto;
-    margin-right: 0;
+    margin-right: 1px;
 }
     
 
